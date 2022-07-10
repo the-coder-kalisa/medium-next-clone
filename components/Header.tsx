@@ -19,7 +19,7 @@ const Header = (): JSX.Element => {
               className={`${
                 header === "Follow" &&
                 "text-white bg-green-600 py-1 px-4 rounded-full"
-              }`}
+              } cursor-pointer`}
             >
               {header}
             </h1>
@@ -27,8 +27,8 @@ const Header = (): JSX.Element => {
         </div>
       </div>
       <div className="flex items-center space-x-5 text-green-600">
-        <h3>Sign In</h3>
-        <h3 className="border px-4 py-1 border-green-600 rounded-full">
+        <h3 className="cursor-pointer">Sign In</h3>
+        <h3 className="cursor-pointer border px-4 py-1 border-green-600 rounded-full">
           Get Started
         </h3>
       </div>

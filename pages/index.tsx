@@ -7,7 +7,7 @@ const Home: NextPage = () => {
     <div className="max-w-7xl mx-auto">
       <Head>
         <title>Medium blog</title>
-        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="../public/favicon.ico/" type="image/x-icon" />
       </Head>
       <Header />
       <div className="flex items-center justify-between bg-yellow-400 border-y border-black py-10 lg:py-0">
