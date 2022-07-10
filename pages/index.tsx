@@ -28,7 +28,7 @@ const Home: NextPage = () => {
           src="https://accountabilitylab.org/wp-content/uploads/2020/03/Medium-logo.png"
         />
       </div>
-      
+      {/* posts*/}
     </div>
   );
 };
