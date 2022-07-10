@@ -3,7 +3,7 @@ import Link from "next/link";
 const Header = (): JSX.Element => {
   const headers: string[] = ["About", "contact", "Follow"];
   return (
-    <header className="flex justify-between p-5 max-w-7xl mx-auto">
+    <header className="flex fixed w-full justify-between p-5 max-w-7xl mx-auto">
       <div className="flex items-center space-x-5">
         <Link href="/">
           <img
