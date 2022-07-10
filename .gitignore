@@ -38,4 +38,4 @@ yarn-error.log*
 *.tsbuildinfo
 
 #sanity
-/sanityyoutube/node_modules
+# /sanityyoutube/node_modules
