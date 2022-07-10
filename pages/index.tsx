@@ -34,3 +34,4 @@ const Home: NextPage = () => {
 };
 
 export default Home;
+export const getServerSideProps = async () => {};
